@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": {
+      "@assets/*": ["src/assets/*"],
+      "@contexts": ["src/contexts/*"],
+      "@hooks": ["src/hooks/*"],
+      "@i18n/*": ["src/i18n/*"],
+      "@locales": ["src/locales/*"],
+      "@pages": ["src/pages/*"],
+      "@routes": ["src/routes/*"],
+      "@utils": ["src/utils/*"],
+      //Components
+      "@atoms": ["src/components/atoms/*"],
+      "@molecules": ["src/components/molecules/*"],
+      "@organisms": ["src/components/organisms/*"],
+      "@templates": ["src/components/templates/*"]
+    },
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src"]
+}
