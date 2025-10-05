@@ -1,4 +1,4 @@
 import en from './en.json';
-import it from './it.json';
+//import other languages here
 
-export { en, it };
+export { en, /*other languages*/ };
